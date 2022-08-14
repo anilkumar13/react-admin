@@ -1,4 +1,3 @@
-import React from 'react';
 import { faker } from '@faker-js/faker';
 import { sample } from 'lodash';
 

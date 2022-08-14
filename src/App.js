@@ -14,8 +14,7 @@ export default function App() {
   const selectedTheme = useSelector((state)=>state.ThemeReducer.selectedTheme);
   
   const inActiveState = ()=>{
-    alert("Session time due to not activity");
-    console.log("inactive user");
+    console.log("Session time due to not activity");
   }
   const activeState = ()=>{
     console.log("active user");

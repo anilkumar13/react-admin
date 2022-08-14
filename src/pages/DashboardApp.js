@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { faker } from '@faker-js/faker';
 import { useTranslation } from "react-i18next";
 // @mui

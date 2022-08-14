@@ -1,6 +1,13 @@
 import { useEffect, useRef } from "react";
+import PropTypes from 'prop-types';
 
-const IdleStateDetector = ({ delay, onIdle, onActive }) => {
+IdleStateDetector.propTypes = {
+  delay: PropTypes.number,
+  onIdle: PropTypes.func,
+  onActive: PropTypes.func
+}
+
+export default function IdleStateDetector({delay, onIdle, onActive}) {
   const timeoutId = useRef();
 
   useEffect(() => {
@@ -67,5 +74,3 @@ const IdleStateDetector = ({ delay, onIdle, onActive }) => {
 
   return null;
 };
-
-export default IdleStateDetector;

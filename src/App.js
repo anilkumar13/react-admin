@@ -11,7 +11,6 @@ import './style.css';
 
 export default function App() {
   const selectedTheme = useSelector((state)=>state.ThemeReducer.selectedTheme);
-  
   const inActiveState = ()=>{
     console.log("Session time due to not activity");
   }

@@ -9,7 +9,6 @@ import { BaseOptionChartStyle } from './components/chart/BaseOptionChart';
 import Router from './routes';
 import './style.css';
 
-
 export default function App() {
   const selectedTheme = useSelector((state)=>state.ThemeReducer.selectedTheme);
   
